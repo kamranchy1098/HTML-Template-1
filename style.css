@@ -1,0 +1,216 @@
+.area {
+    width: 1000px;
+    background-color: gray;
+    margin: 0 auto;
+}
+.head {
+    background-color: #2471A3;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+    width: 300px;
+}
+.logo img {
+    width: 100px;
+}
+.menu-bar {
+    float: right;
+    width: 700px;
+}
+.active {
+    background-color: orange;
+}
+.menu-bar ul {
+    text-align: right;
+    list-style: none;
+}
+.menu-bar ul li {
+    display: inline-block;
+    padding-top: 20px;
+}
+.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu-bar ul li a:hover {
+    background-color: orange;
+    color: #40E0D0;
+}
+.bannar {
+    padding-top: 1px;
+}
+.bannar img {
+    width: 100%;
+}
+.about {
+    overflow: hidden;
+    padding: 20px 30px;
+    background-color: #A9CCE3;
+}
+.about_one {
+    float: left;
+    width: 440px;
+}
+.button {
+    font-size: 16px;
+    background-color: #008CBA;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 4px 2px;
+    padding: 10px 10px;
+    color: white;
+}
+.about_one h4,
+.contact_form h4,
+.contact_address h4 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: bold;
+}
+.about_one p {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+.about_one ul {
+    list-style: none;
+}
+.about_one ul li a {
+    text-decoration: none;
+    color: white;
+}
+ .services {
+     background-color: #6A8290;
+     overflow: hidden;
+ }
+ .services h4,
+ .gallary h4 {
+     text-align: center;
+     color: white;
+     text-transform: capitalize;
+     font-size: 28px;
+     font-weight: bold;
+ }
+ .services_one {
+     display: inline-block;
+     width: 27%;
+     padding: 30px 10px;
+     font-size: 18px;
+     transition: 0.4s;
+     overflow: hidden;
+     margin: 2%;
+     text-align: center;
+     box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+     background: #fff;
+ }
+.services_one img {
+    height: 5%;
+    margin: 5px;
+    width: 30px;
+}
+  .services_one:hover {
+      background: green;
+      color: #00ffff;
+  }
+
+.gallary {
+    background-color: #74B2D8;
+    overflow: hidden;
+}
+ .gallary_one {
+     display: inline-block;
+     width: 27%;
+     padding: 30px 10px;
+     font-size: 18px;
+     transition: 0.4s;
+     overflow: hidden;
+     margin: 2%;
+     text-align: center;
+     box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+     background: white;
+ }
+.gallary_one img {
+    overflow: hidden;
+    width: 100%;
+}
+  .gallary_one:hover {
+      background: green;
+      color: #00ffff;
+  }
+
+.video {
+    background-color: #00CED1;
+    overflow: hidden;
+}
+.video_one{
+	display:inline-block;
+	width:27%;
+	padding:2px 2px;
+	font-size:18px;
+	transition:0.4s; 
+	overflow:hidden;
+	margin:2%;
+	text-align:center;
+	box-shadow:0 0 15px 1px rgba(37,73,214,0.18); 
+    background:purple;
+}
+
+.contact {
+    overflow: hidden;
+    padding: 0 20px;
+    background-color: teal;
+}
+.contact_form {
+    float: left;
+    width: 620px;
+    margin-right: 20px;
+}
+.contact_form input,
+.contact_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contact_form input[type="submit"] {
+    background-color: #D8BFD8;
+    color: white;
+    font-size: 15px;
+    width: 35%;
+}
+.contact_form input[type="submit"]:hover {
+    background-color: blue;
+    color: white;
+}
+.contact_address {
+    float: right;
+    width: 280px;
+}
+.contact_address ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contact_address ul li {
+    color: white;
+    font-size: 18px;
+}
+footer {
+    background-color: #85C1E9;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
